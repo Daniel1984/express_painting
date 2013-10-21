@@ -4,7 +4,7 @@ define([
   ], function(Backbone, template) {
   
   var IndexView = Backbone.View.extend({
-    className: 'container navbar-container',
+    className: 'navbar-container',
     
     initialize: function() {
       this.template = _.template(template);

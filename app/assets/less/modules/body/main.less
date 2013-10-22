@@ -1,11 +1,14 @@
 body {
 	background: #000;
-	img {
+	img.garage, img.car-body {
 		position: fixed;
 		top: 0px;
 		left: 0px;
-		&.car-body {
-		  z-index: 1;
-		}
+	}
+	img.garage {
+		z-index: -2;
+	}
+	img.car-body {
+		z-index: -1;
 	}
 }

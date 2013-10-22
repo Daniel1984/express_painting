@@ -833,6 +833,8 @@ th.hidden-lg,td.hidden-lg{display:table-cell !important}
 @media (min-width:1200px){.hidden-lg{display:none !important}tr.hidden-lg{display:none !important} th.hidden-lg,td.hidden-lg{display:none !important}}
 .visible-print{display:none !important}tr.visible-print{display:none !important}
 th.visible-print,td.visible-print{display:none !important}
-@media print{.visible-print{display:block !important}tr.visible-print{display:table-row !important} th.visible-print,td.visible-print{display:table-cell !important} .hidden-print{display:none !important}tr.hidden-print{display:none !important} th.hidden-print,td.hidden-print{display:none !important}}body{background:#000}body img{position:fixed;top:0px;left:0px}body img.car-body{z-index:1}
-div.navbar-container{position:fixed;width:100%;top:50px}div.navbar-container a.navbar-brand h3{margin:0px}
-div.navbar-container .navbar-nav>li>a{padding:21px 25px 16px 25px}
+@media print{.visible-print{display:block !important}tr.visible-print{display:table-row !important} th.visible-print,td.visible-print{display:table-cell !important} .hidden-print{display:none !important}tr.hidden-print{display:none !important} th.hidden-print,td.hidden-print{display:none !important}}body{background:#000}body img.garage,body img.car-body{position:fixed;top:0px;left:0px}
+body img.garage{z-index:-2}
+body img.car-body{z-index:-1}
+div.navbar-container img.logo{margin:10px 0 0 20px;display:block}
+div.navbar-container hr{margin:0 0 10px 0;border-top:2px solid #5adeff}
